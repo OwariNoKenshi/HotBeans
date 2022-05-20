@@ -1,0 +1,116 @@
+
+/* For the navigation bar*/
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  
+}
+
+
+ul { 
+  margin: 150px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+}
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.topnav a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+#Logo {
+	position: absolute;
+	float: left;
+	top: -10px;
+
+}
+
+#links {
+	position: absolute;
+	top: 50%;
+}
+
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/1567665.png');
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+
+.container {
+  position: relative;
+}
+/* puts text in the top right of images */
+.topright {
+  position: absolute;
+  top: -150px;
+  right: 16px;
+  font-size: 18px;
+}
+
+
+
+#content {
+	position: relative;
+}
+#content img {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+div.absolute {
+  position: absolute;
+  top: 50px;
+  left: 750px;
+  width: 1000px;
+  height: 0px;
+
+  
+}
+
+
